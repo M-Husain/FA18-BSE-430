@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FA18-BSE-430</title>
+</head>
+<body>
+<style>
+    #header{
+        width: 1040px;
+        height: 235px;
+        background: white;
+        margin: auto;
+
+    }
+    #header .search{
+        width: 100%;
+        height: 100px;
+    }
+    #header .logo{
+        width: 100%;
+        height: 136px;
+    }
+    #header .search_main{
+        width: 380px;
+        height: 80px;
+        float: right;
+        margin: 10px 20px;
+    }
+    #header .search_main span{
+        position: relative;
+        font-size: 15pt;
+        font-family: Arial;
+    }
+    #header .search_main span a .facebook{
+        display: block;
+        width: 25px;
+        height: 25px;
+        background: url(images/slices.png)no-repeat -347px -546px;
+        position: absolute;
+        top: -3px;
+        right: -27px;
+    }
+    #header .search_main span a .twiter{
+        display: block;
+        width: 25px;
+        height: 25px;
+        background: url(images/slices.png)no-repeat -442px -546px;
+        position: absolute;
+        top: -3px;
+        right: -60px;
+    }
+    #header .search .search_main_btn{
+        width: 350px;
+        height: 35px;
+        margin-top: 5px;
+        position: relative;
+    }  #header .search .search_main_btn input{
+        width: 350px;
+        height: 30px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    #header .search .search_main_btn span{
+        width: 45px;
+        height: 34px;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-left: 1px solid #ccc;
+    }
+    #header .search .search_main_btn span img{
+        width: 25px;
+        height: 25px;
+        display: block;
+        position: relative;
+        top: 3px;
+        right: -12px;
+    }
+
+</style>
+<header>
+    <div id="header">
+        <div class="search">
+            <div class="search_main">
+                <span>
+                    Follow us on
+                    <a href="https://www.facebook.com/skmch">
+                        <i class="facebook"></i>
+                    </a>
+                    <a href="https://twitter.com/skmch">
+                        <i class="twiter"></i>
+                    </a>
+
+                </span>
+                <form class="search_main_btn">
+                    <input>
+                    <span>
+                        <img src="images/search-icon.png">
+
+                    </span>
+                </form>
+
+
+            </div>
+
+        </div>
+        <div class="logo">
+            
+            <img src="images/skmLogo.png">
+            
+        </div>
+       
+
+    </div>
+</header>
+<style>
+    #menu_bar{
+        width: 100%;
+        height: 50px;
+        background: #f8f8f8;
+        border: 1px solid #e7e7e7;
+        border-radius: 4px;
+        margin-top:10px;
+    }
+    #container{
+        width: 1035px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    #container ul{
+        padding: 0px;
+        margin: 0px;
+    }
+    #container ul li{
+        position: relative;
+        float: left;
+        margin-left: 30px;
+    }
+    #container ul li .home{
+              width: 11px;
+              height: 7px;
+              background: url(images/slices.png) no-repeat -1053px -27px;
+              display: inline-block;
+              position: absolute;
+              top: 24px;
+              right: 25px;
+    }
+    #container ul li .about_us{
+        width: 11px;
+        height: 7px;
+        background: url(images/slices.png) no-repeat -1053px -27px;
+        display: inline-block;
+        position: absolute;
+        top: 24px;
+        right: 7px;
+    }
+    #container ul li .donors_us{
+        width: 11px;
+        height: 7px;
+        background: url(images/slices.png) no-repeat -1053px -27px;
+        display: inline-block;
+        position: absolute;
+        top: 24px;
+        right: 18px;
+    }
+    #container ul li .join_us{
+        width: 11px;
+        height: 7px;
+        background: url(images/slices.png) no-repeat -1053px -27px;
+        display: inline-block;
+        position: absolute;
+        top: 24px;
+        right: 15px;
+    } #container ul li .contact_us{
+          width: 11px;
+          height: 7px;
+          background: url(images/slices.png) no-repeat -1053px -27px;
+          display: inline-block;
+          position: absolute;
+          top: 24px;
+          right: -5px;
+      }
+</style>
+<nav id="menu_bar">
+    <div id="container">
+        <ul>
+            <li style="width: 80px;height: 100%;list-style: none;line-height: 50px;margin-left: 0px">
+                <a style="font-family: 'Arial Narrow'">Home</a>
+                <i class="home"></i>
+            </li>
+            <li style="width: 80px;height: 100%;list-style: none;line-height: 50px">
+                <a style="font-family: 'Arial Narrow'">About us</a>
+                <i class="about_us"></i>
+            </li>
+            <li style="width: 150px;height: 100%;list-style: none;line-height: 50px">
+                <a style="font-family: 'Arial Narrow'">Patients and Families</a>
+                <i class="about_us"></i>
+            </li>
+            <li style="width: 280px;height: 100%;list-style: none;line-height: 50px">
+                <a style="font-family: 'Arial Narrow'">Healthcare Professionals and Researchers</a>
+                <i class="about_us"></i>
+            </li>
+            <li style="width:80px;height: 100%;list-style: none;line-height: 50px">
+                <a style="font-family: 'Arial Narrow'">Donors</a>
+                <i class="donors_us"></i>
+            </li>
+            <li style="width:80px;height: 100%;list-style: none;line-height: 50px">
+                <a style="font-family: 'Arial Narrow'">Join Us</a>
+                <i class="join_us"></i>
+            </li>
+            <li style="width:80px;height: 100%;list-style: none;line-height: 50px">
+                <a style="font-family: 'Arial Narrow'">Contact Us</a>
+                <i class="contact_us"></i>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+<style>
+    #main{
+        width: 100%;
+        height: 410px;
+    }
+
+</style>
+<div id="main">
+    <img style="max-width: 100%" src="images/IMG_3705.png">
+</div>
+
+<style>
+    #main_bottom{
+        width: 100%;
+        height: 340px;
+        margin-top: 20px;
+
+    }
+    #main_bottom .main_content{
+        width: 1170px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    #main_bottom .main_content .main_content_left{
+        width: 390px;
+        height: 100%;
+        float: left;
+        position: relative;
+        margin-right: 20px;
+    }
+    #main_bottom .main_content .main_content_right{
+        width: 350px;
+        height: 100%;
+        float: left;
+    }
+    #main_bottom .main_content .main_content_left .part1{
+        display: inline-block;
+        margin: 0;
+        position: absolute;
+        top: 30px;
+        left: 114px;
+        margin-top: 10px;
+
+      }
+    #main_bottom .main_content .main_content_left img {
+        position: absolute;
+        top: 5px;
+        left: 0px;
+    }
+    #main_bottom .main_content .main_content_left .part2{
+        position: absolute;
+        top: 135px;
+        left: 0px;
+        margin: 0;
+    }
+    #main_bottom .main_content .main_content_center{
+        width: 390px;
+        height: 100%;
+        float: left;
+        position: relative;
+        margin-right: 20px;
+    }
+    #main_bottom .main_content .main_content_center .part1{
+        display: inline-block;
+        margin: 0;
+        position: absolute;
+        top: 30px;
+        left: 114px;
+        margin-top: 10px;
+    }
+    #main_bottom .main_content .main_content_center img {
+        position: absolute;
+        top: 5px;
+        left: 0px;
+    }
+    #main_bottom .main_content .main_content_center .part2{
+        position: absolute;
+        top: 135px;
+        left: 0px;
+        margin: 0;
+    }
+    #main_bottom .main_content .main_content_left span{
+        width: 90px;
+        height: 30px;
+        display: block;
+        background: rgba(110,109,106,0.79);
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        font-size: 10pt;
+        line-height: 31px;
+        text-align: center;
+        font-family: arail;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+        color: white;
+    }
+    #main_bottom .main_content .main_content_center span{
+        width: 90px;
+        height: 30px;
+        display: block;
+        background: rgba(110,109,106,0.79);
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        font-size: 10pt;
+        line-height: 31px;
+        text-align: center;
+        font-family: arail;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+        color: white;
+    }
+
+
+</style>
+<div id="main_bottom">
+    <div class="main_content">
+        <div class="main_content_left">
+            <h4 style="position: absolute;top: 17px;left: 114px;margin: 0;">Appeal by Chairman</h4>
+            <p class="part1">Dear Friends, As-Salam Aleikum. On the 29th of December 2020, Pakistan’s first tertiary-level cancer centre, the Shaukat Khanum Memorial Cancer Hospital and Research Centre
+            </p>
+            <img style="margin-top: 15px" src="images/Emrankhan.png">
+            <p class="part2" >
+                (SKMCH&RC), completed twenty-six years of service. Over the past two decades, the Hospital has dealt with several challenges but never closed its operations, even for a single day. As we find ourselves amidst another challenge, the COVID-19 pandemic, we are grateful for the support of our donors and staff whose unrelenting.....
+            </p>
+            <span>View details</span>
+        </div>
+        <div class="main_content_center">
+            <h4 style="position: absolute;top: 17px;left: 114px;margin: 0;">Our Story</h4>
+            <p class="part1">Shaukat Khanum Memorial Cancer Hospital and Research Centres (SKMCH&RC) are state-of-the-art cancer centres located in Lahore and Peshawar, Pakistan. SKMCH&RC,
+            </p>
+            <img style="margin-top: 15px" src="images/hospital.png">
+            <p class="part2" >
+                Lahore was the first project of the Shaukat Khanum Memorial Trust, which is a charitable organization established under the Societies Registration Act XXI of 1860 of Pakistan. Inspiration for making the Hospital Shaukat Khanum Memorial Cancer Hospital and Research Centre is the…
+            </p>
+            <span>View details</span>
+        </div>
+        <div class="main_content_right">
+            <img style="margin-top: 20px" src="images/contact.png">
+        </div>
+
+    </div>
+
+</div>
+<style>
+    #border{
+        width: 1170px;
+        height: 5px;
+        background: gray;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+</style>
+<div id="border">
+
+</div>
+<style>
+    #footer{
+        width: 1170px;
+        height: 240px;
+        margin: 0 auto;
+
+    }
+    #footer .footer_left{
+        width: 260px;
+        margin-right: 40px;
+        height: 120px;
+        float: left;
+    } #footer .footer_center1{
+        width: 260px;
+        margin-right: 40px;
+        height: 120px;
+        float: left;
+    } #footer .footer_center2{
+        width: 260px;
+        margin-right: 40px;
+        height: 120px;
+        float: left;
+    } #footer .footer_right{
+        width: 260px;
+        height: 120px;
+        float: left;
+    }
+    #footer .horezintal_line {
+        width: 100%;
+        height: 2px;
+        background: #ccc;
+        float: left;
+    }
+
+</style>
+<footer id="footer">
+    <div class="footer_left">
+        <h4 style="margin: 0px">Patients and Families </h4>
+        <p style="margin: 0px">Schedule an Appointment
+            View Your Lab Results
+            Financial Assistance Programme
+            Find a Doctor
+        </p>
+    </div>
+    <div class="footer_center1">
+        <h4 style="margin: 0px">Healthcare Professionals and Researchers </h4>
+        <p style="margin: 0px">Medical Services
+            Jobs
+            Education & Training
+            Research
+        </p>
+    </div>
+    <div class="footer_center2">
+        <h4 style="margin: 0px">Donate </h4>
+        <p style="margin: 0px">Volunteer
+            Student Ambassador
+            Institution Ambassador
+            Shaukat Khanum Tigers
+            Shaukat Khanum Blood Donors
+        </p>
+    </div>
+    <div class="footer_right">
+        <h4 style="margin: 0px">Contact Us  </h4>
+        <p style="margin: 0px">Careers
+            Regional Offices
+            Laboratory Collection Centres
+            Diagnostic Centres
+        </p>
+
+    </div>
+    <p style="    width: 100%;float: left;}">
+        Name:M.Husain    Reg#:FA18-BSE-430   Student of Software Engineerin at Comsats University Islamabad Lahore Campus.
+    </p>
+    <div class="horezintal_line">
+
+    </div>
+    <p style="    width: 100%;float: left;}">
+        All Rights Reserved by:M.Husain "Dellawari" at department of computer science.
+    </p>
+
+</footer>
+</body>
+</html>
